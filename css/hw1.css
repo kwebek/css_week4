@@ -1,0 +1,155 @@
+*{
+	box-sizing: border-box;
+}
+
+table{
+	width: 85%;
+	margin: 0 auto;
+	font-family: verdana, tahoma;
+	font-size: 80%;
+}
+
+td,th{
+		 transition: 0.2s ease;
+}
+
+
+table td:hover{
+		background: rgba(194, 224, 166, 0.60);
+		color:#222222;
+}
+
+table td{
+	padding:1.5%;
+	background: rgba(194, 224, 166, 0.80);
+	color:#555555;
+}
+
+table td:nth-child(1){
+	text-align:left;
+}
+
+table th:nth-child(1){
+	text-align:left;
+}
+
+table th{
+background: rgb(29,36,0);
+background: linear-gradient(0deg, rgba(29,36,0,0.8) 0%, rgba(79,121,9,0.8) 99%); 
+padding:1.5%;
+color:#ffffff;
+border: solid 2px #f0cf1a;
+}
+
+
+table th:hover{
+background: linear-gradient(0deg, rgba(29,36,0,0.6034546240371149) 0%, rgba(79,121,9,0.6025862766981793) 99%); 
+}
+
+
+
+body {
+	padding:1.5%;
+	font-size: 130%;
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	color:#ffffff;
+	font-size: 200%;
+}
+
+h2 {
+		font-size: 170%;
+		text-align:left;
+}
+
+header {
+	background: #b7c176 url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+	background-size: cover;
+	min-height: 175px;
+	padding-left:3%;
+	text-align:justify;
+	width: 100%;
+	display: inline-block;
+	text-align:center;
+	}
+
+header a{
+	display: inline-block;
+	color:#000000;
+	font-weight: bold;
+	background: rgba(255,255,255,0.45);
+	padding:15px;
+	margin-right: 45px;
+	border-radius: 5px;
+	text-align: center;
+	min-width:190px;
+	text-decoration: none;
+	margin-bottom:5px;
+}
+
+
+header a{
+		 transition: 0.5s ease-in;
+		 transition-delay: 0.3s;  
+}
+
+header a:active, a:hover, a:focus {
+	background: rgba(255,255,255,0.99);
+   
+    -webkit-transform: rotate(360deg) scale(1.2);
+    -moz-transform: rotate(360deg) scale(1.2);
+    -o-transform: rotate(360deg) scale(1.2);
+    -ms-transform: rotate(360deg) scale(1.2);
+    transform: rotate(360deg) scale(1.2);
+    }
+
+.active {
+	background: rgba(255,255,255,0.99);
+}
+
+.left {
+	display: inline-block;
+	margin:0px;
+	padding: 0px;
+	width:15%;
+	height:100%;
+	min-height: 500px;
+	padding: 0.5% 2% 2% 2%;
+	vertical-align: top;
+	background: #b7c176;
+	z-index:10;
+}
+
+.left img{
+	width:100%;
+	margin-top: 20px;
+	border: solid 2px;
+	border-color:#000000;
+}
+
+
+.right {
+	display: inline-block;
+	margin:0px;
+	padding: 0px;
+	width:82%;
+	vertical-align: top;
+	margin-left:1.5%;
+	text-align:center;
+}
+
+.right h2{
+	color:#333333;
+	text-transform: none;
+}
+
+.right td {
+	padding-right:1.5%;
+}
+
+.right p{
+	text-align:left;
+}
